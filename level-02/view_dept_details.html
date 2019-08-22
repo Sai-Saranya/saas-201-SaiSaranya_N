@@ -1,101 +1,41 @@
 <html>
-<head>
-        <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
-    <style>
-    body
-    {
-        background-image:url("pic5.jpg");
-        background-position:center;
-        background-size:cover;
-    }
-    #norm
-    {
-        color:rgb(0,0, 0);
-        margin-right:25px;
-        margin-left:25px;
-        margin-top:100px;
-        text-align:center;
-        padding-top:5px;
-    }
-
-    #norm1
-    {
-        font-family: 'Courgette', cursive;
-        border-radius: 25px;
-        padding-left:30px;
-        padding-right:20px;
-        padding-top:1px;
-        padding-bottom:1px;
-        background-color:rgba(255, 255, 255,0.767);
-        margin-right:50px;
-        margin-left:50px;
-        margin-bottom:10px;
-    }
-    #norm2
-    {
-        font-family: 'Courgette', cursive;
-        margin-bottom:10px;
-        padding-top:1px;
-        padding-bottom:1px;
-        border-radius: 25px;
-        padding-left:30px;
-        padding-right:10px;
-        background-color:rgba(255, 255, 255,0.767);
-        margin-right:50px;
-        margin-left:50px;
-    }
-    #norm3
-    {
-        font-family: 'Courgette', cursive;
-        margin-bottom:10px;
-        padding-top:1px;
-        padding-bottom:1px;
-        border-radius: 25px;
-        padding-left:30px;
-        padding-right:25px;
-        background-color:rgba(255, 255, 255,0.767);
-        margin-right:50px;
-        margin-left:50px;
-    }
-    #norm4
-    {
-        font-family: 'Courgette', cursive;
-        color:chocolate;
-        margin-bottom:10px;
-        padding-top:1px;
-        padding-bottom:1px;
-        border-radius: 25px;
-        padding-left:75px;
-        padding-right:50px;
-        background-color:rgba(255, 255, 255,0.767);
-        margin-right:50px;
-        margin-left:50px;
-    }
-    #body1
-    {
-        margin-right:450px;
-        margin-left:450px;
-
-    }
-    </style>
+    <head>
+	 <link rel="stylesheet" type="text/css" href="styleenroll_dept.css"/> 
+    </head>
     <body>
-        <div id="body1">
-        <div id="norm">
-            <h1 style="font-family: 'Righteous', cursive;">VIEW DETAILS</h1>
-        </div>
-        <div id="norm1">
-            <a style="text-decoration:none" href="view_department_details.html"><h3 style="color:rgb(216, 59, 38)">Fetch Department Details</h3></a>
-        </div>
-        <div id="norm2">
-            <a style="text-decoration:none" href="view_student_details.html"><h3 style="color:rgb(216, 59, 38)">List details of student</h3></a>
-        </div>
-        <div id="norm3">
-            <a style="text-decoration:none" href="index.html"><h3 style="color:rgb(216, 59, 38)">Go Back</h3></a>
-        </div>
-        <br>
-        </div>
-        </body>
+	<div class="over">
+        
+        <form action="#">
+        <h2 id="heading">FETCH DEPARTMENT DETAILS</h2>
+        
+     
+            <div class="r11">
+            <label>Department:</label>
+            </div><div class="r11">
+            <select>
+                    <option value="EEE">EEE</option>
+                
+                <option value="MECH">MECH</option>
+                <option  value="CSE">CSE </option>
+                <option value="CIVIL">CIVIL</option>
+        </select>
+    </div><div class="r11">
+            <label >Section:</label>
+        </div><div class="r11">
+            <select>
+                    <option value="Any">Any</option>
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>
+                    
+            </select>
+        </div><div class="r11">
+             <input class="MY1" type="submit" value="Get List">
+             &nbsp;
+        </form>
+             <a id="anch21" href="view_details.html">Go Back</a>
+            </div>   
+      
+		</div>
     </body>
-</head>
 </html>

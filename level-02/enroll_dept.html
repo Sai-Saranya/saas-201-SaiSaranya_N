@@ -1,103 +1,34 @@
 <html>
     <head>
-		<link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
-        <style>
-            body
-            {
-                background-image:url("pic3.jpg");
-                background-size:cover;
-                background-position:center;
-            }
-            #norm
-            {
-                padding-top:10px;
-                margin-top:50px;
-                color:navy;
-                margin-right:50px;
-                margin-left:50px;
-                margin-top:5px;
-                margin-bottom:10px;
-            }
-            #norm1
-            {
-                  
-                 color:blanchedalmond;
-            
-
-            }
-            select 
-            {
-                width: 200px;
-                 margin-left: 50px;
-            }
-            input
-            {
-                margin-left: 50px;
-            }
-            label
-            {
-				font-family: 'Courgette', cursive;
-                margin-left: 50px;
-            }
-			#anw
-			{
-              		        margin-top:75px;
-				margin-left:450px;
-                background-color:rgba(228, 194, 84, 0.575);
-                border-radius:25px;
-				margin-right:450px;
-padding-bottom:10px;
-margin-bottom:150px;
-			}
-            #anch
-            {
-				font-family: 'Courgette', cursive;
-                padding:5px;
-                background-color:navy;
-                border-radius:10px;
-                text-decoration:none;
-                color:rgb(190, 163, 122);
-                margin-left:50px;
-            }
-			#anch2
-			{
-				text-decoration:none;
-				color:rgb(190, 163, 122);
-				font-family:'Courgette', cursive;
-				border-radius:10px;
-				background-color:navy;
-				padding:5px;
-			}
-        </style>
+		
+        <link rel = "stylesheet" type = "text/css" href = "styleenroll_dept.css" />
     </head>
     <body>
-	<div id="anw">
-        <br>
-        <h2 id="norm" style="font-family: 'Righteous', cursive;">Enroll in to Department</h2>
-        <div id="norm1">
+	<div id="anw1">
+        <h2 class="norm1" >ENROLL INTO A DEPARTMENT</h2>
+       
+            <form action="#"> 
+                <div class="br11">
             <label>Name:</label>
-            <br>
-            <br>
+                </div>
             <input placeholder="Enter name" type="text"></input>
-            <br>
-            <br>
+            <div class="br11">
             <label>Department:</label>
-            <br>
-            <br>
+            </div>
+   <div class="br21">
             <select>
-                    <option style="font-family: 'Courgette', cursive;" value="volvo">Computer Sciences     </option>
-                    <option style="font-family: 'Courgette', cursive;" value="saab">Mechanical</option>
-                    <option style="font-family: 'Courgette', cursive;" value="opel">Civil</option>
-                    <option style="font-family: 'Courgette', cursive;" value="audi">Bio technology</option>
+                    <option value="CSE">CSE</option>
+                    <option value="MECH">MECH</option>
+                    <option value="CIVIL">CIVIL</option>
+                    <option value="EEE">EEE</option>
             </select>
-            <br>
-            <br>
-            <br>
-             <a id="anch" href="index.html">Go Back</a> &nbsp;
+        </div>
+            <input class="MY1" type="submit" value="Register">
              &nbsp;
-             <a id="anch2" "href="index.html">Register</a>
-             <br><br>    
+             </form>
+             <a id="anch21" href="index.html">Go Back</a>
+             </a>
+         
         </div>
 		</div>
     </body>
