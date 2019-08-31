@@ -26,11 +26,10 @@ if(y!=g)
 {
 (x.options[0]).disabled=false;
 }
-for(i=0; i<x.options.length;i++){
-
-(x.options[i]).disabled=false;
-
-}
+(x.options[0]).disabled=false;
+(x.options[1]).disabled=false;
+(x.options[2]).disabled=false;
+(x.options[3]).disabled=false;
 for(i=0; i<x.options.length;i++){
 if(x.options[i].value==y)
 {
@@ -59,10 +58,10 @@ if(x.options[i].value==y)
     var isValid = true;
     //phn  no validation
     var regx=/^[0-9]\d{0,9}$/;
-    var phn =document.getElementById("phono");
-     var integer=parseInt(phn.value,10);
-     if(!regx.test(integer)){
-       alert("Enter valid number");
+    var phn =document.getElementById("phono").value;
+    // var integer=parseInt(phn.value,10);
+     if(!regx.test(phn)){
+      // alert("Enter valid number");
       isValid=false;
       }
       //name validation
