@@ -1,3 +1,4 @@
+<!-- todos.erb -->
 <header>
   <div id='header-left'>
     <h1>Todo List</h1>
@@ -20,7 +21,7 @@
           <% if @todos[key][0].strip!="" %>
           <a href="/todos/<%= key %>" class="todo-box"> <%= @todos[key][0] %></a>
             <%if @todos[key][1]!="" %>
-            <span class="todo-box"><span class="dead_style">Deadline:</span><%= @todos[key][1] %></span>
+            <span><span>Deadline:</span><%= @todos[key][1] %></span>
           <% end %>
           <% end %>
           <div>

@@ -1,3 +1,4 @@
+<!-- todo.erb -->
 <header>
   <div id='header-left'>
     <h1><%= @todo[0] %></h1>
@@ -13,7 +14,7 @@
       <input type='hidden' name='_method' value='put'>
       <input type="text" name="title" placeholder="Enter updated event" value="<%= @todo[0] %>"/>
       <div class='btn-container'>
-        <a class='btn' href='/todos'>︎Back</a>
+        <a class='btn' href='/todos'>Back</a>
         <input class="btn-style" type='submit' value='save changes'>
       </div>
     </form>
